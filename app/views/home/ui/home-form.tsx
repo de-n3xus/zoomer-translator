@@ -113,6 +113,7 @@ export const HomeForm = (
 			<div
 				className={cn(
 					'border p-4 rounded-lg w-full mt-32 flex justify-start gap-4',
+					'bg-background/80 backdrop-blur-xl',
 					(
 						messages?.filter(m => m?.role === 'assistant')?.length > 0
 						||
