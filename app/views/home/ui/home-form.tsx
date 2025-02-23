@@ -71,7 +71,7 @@ export const HomeForm = (
 				onSubmit={handle}
 			>
 				<Textarea
-					className="resize-none pr-12"
+					className="resize-none pr-12 !bg-background/80 backdrop-blur-xl"
 					rows={4}
 					ref={textAreaRef}
 					value={input}
